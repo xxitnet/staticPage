@@ -4,10 +4,10 @@
 #EXT-X-ALLOW-CACHE:YES
 #EXT-X-TARGETDURATION:20
 
-#EXT-X-KEY:METHOD=AES-128,URI="http://localhost:8080/getkey",IV=0xbc0151bd11c175d30c5712b8ad1c37de
+#EXT-X-KEY:METHOD=AES-128,URI="https://xxitnet.github.io/staticPage/key",IV=0xbc0151bd11c175d30c5712b8ad1c37de
 #EXTINF:10.080000,
-http://localhost:8080/0.ts
-#EXT-X-KEY:METHOD=AES-128,URI="http://localhost:8080/getkey",IV=0x3df9fb61c2248078cd0d0b5a977cf5b2
+https://xxitnet.github.io/staticPage/0.ts
+#EXT-X-KEY:METHOD=AES-128,URI="https://xxitnet.github.io/staticPage/key",IV=0x3df9fb61c2248078cd0d0b5a977cf5b2
 #EXTINF:10.000000,
-http://localhost:8080/0.ts
+https://xxitnet.github.io/staticPage/0.ts
 #EXT-X-ENDLIST
